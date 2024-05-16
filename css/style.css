@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap');
+
+:root{
+    --mainFront: "Newsreader", serif;
+    --textColor : #4F966E;
+    --btnColor : #1AE570;
+    --bgc : #E8F2ED;
+    --black : #000;
+    --white : #FFF;
+}
+
+*{
+    margin: 0;
+    scroll-behavior: smooth;
+    font-family: var(--mainFront);
+}
+
+.paraArticle{
+    color: var(--textColor);
+}
+
+.container1440{
+    margin: auto;
+    padding: 0 15px;
+    max-width: 1440px;
+}
+.container1140{
+    margin: auto;
+    padding: 0 15px;
+    max-width: 1140px;
+}
+
+.btntransparent{
+    padding: 8px 16px;
+    background-color: var(--bgc);
+    color: var(--textColor);
+    border-radius: 16px;
+}
+
+.btnPlein{
+    padding: 8px 16px;
+    background-color: var(--btnColor);
+    color: var(--black);
+    border-radius: 16px;
+}
+
+h1{
+    font-weight: 800;
+    font-size: 48px;
+}
+
+h2{
+    font-weight: 700;
+    font-size: 32px;
+}
+
+h3{
+    font-weight: 700;
+    font-size: 18px;
+}
+
+p{
+    font-weight: 400;
+    font-size: 16px;
+}
+
+ul{
+    padding: 0;
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: var(--black);
+}
+
+/* HEADER */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 80px;
+}
+
+#search{
+    padding: 8px 16px;
+    border-radius: 0px 16px 16px 0px;
+    outline: none;
+    border: solid 1px var(--bgc);
+    background-color: var(--bgc);
+}
+
+header nav {
+    display: flex;
+    gap: 20px;
+}
+
+header  nav form{
+    display: flex;
+    flex-direction: row-reverse; 
+}
+
+::placeholder{
+    color: var(--textColor);
+}
+
+header nav form button{
+    border-radius: 16px 0px 0px 16px;
+    border: solid 1px var(--bgc);
+    background-color: var(--bgc);
+    cursor: pointer;
+    color: var(--textColor);
+}
+
+/* FOOTER */
+
+footer ul {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+footer ul a{
+    color: var(--textColor);
+}
+
+footer p {
+    text-align: center;
+    color: var(--textColor);
+}
+
+/* MAIN */
+
+#presentation article{
+    background-image: url(/img/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 9px;
+}
