@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap');
+
+:root{
+    --mainFront: "Newsreader", serif;
+    --textColor : #4F966E;
+    --btnColor : #1AE570;
+    --bgc : #E8F2ED;
+    --black : #000;
+    --white : #FFF;
+}
+
+*{
+    margin: 0;
+    scroll-behavior: smooth;
+    font-family: var(--mainFront);
+}
+
+.paraArticle{
+    color: var(--textColor);
+}
+
+.container1440{
+    margin: auto;
+    padding: 0 15px;
+    max-width: 1440px;
+}
+.container600{
+    margin: 50px auto;
+    padding: 0 15px;
+    max-width: 600px;
+}
+
+.btntransparent{
+    padding: 8px 16px;
+    background-color: var(--bgc);
+    border-radius: 16px;
+}
+
+.btnPlein{
+    padding: 8px 16px;
+    background-color: var(--btnColor);
+    color: var(--black);
+    border-radius: 16px;
+}
+
+h1{
+    font-weight: 800;
+    font-size: 30px;
+    color: var(--black);
+    margin-bottom: 30px;
+}
+
+h2{
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+p{
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--black);
+    font-size: 18px;
+}
+
+ul{
+    padding: 0;
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: var(--black);
+}
+
+/* HEADER */
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+}
+
+header nav ul {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+/* FOOTER */
+
+.socialMedia{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 10px;
+}
+
+.socialMedia p{
+    color: var(--textColor);
+}
+
+footer > p{
+    text-align: center;
+    color: var(--textColor);
+}
+
+/* MAIN */
+
+input[type=radio]{
+    display: none;
+}
+
+input[type=file]{
+    display: none;
+}
+
+input[type=text], textarea, form button{
+    border: none;
+}
+
+input[type=text], textarea{
+    margin-bottom: 10px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+input[type=text]{
+    padding: 12px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+form input{
+    outline: none;
+}
+
+#imgbutton{
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+}
+
+form label {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#radio{
+    margin-bottom: 30px;
+}
+
+#imgbutton .btnPlein, #imgbutton .btntransparent{
+    padding: 15px 26px;
+    margin: 0;
+    font-size: 18px;
+}

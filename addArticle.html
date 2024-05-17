@@ -3,9 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/addArticle.css">
+    <script src="https://kit.fontawesome.com/2bb90c57b5.js"></script>
     <title>Add Article</title>
 </head>
 <body>
-    
+    <header id="header" class="container1440">
+        <a href="#"><img src="img/logo.png" alt="logo"></a>
+        <nav>
+            <ul>
+                <a href="#"><li>Home</li></a>
+                <a href="#"><li>My articles</li></a>
+                <a href="#"><li>Dashboard</li></a>
+                <a class="btnPlein" href="#"><li>Logout</li></a>
+                <a href="#"><li><img src="img/Depth 4, Frame 2.png" alt="Profil"></li></a>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="container600">
+            <h1>New blog</h1>
+            <form action="#" method="post">
+                <label for="title">Title</label>
+                <input type="text" name="title" id="title" class="btntransparent">
+                <label for="writePost">Write your post</label>
+                <textarea name="writePost" id="writePost" cols="30" rows="10" class="btntransparent"></textarea>
+                <h2>Add a category</h2>
+                <div id="radio">
+                    <label for="choice1" class="btntransparent">Technology</label>
+                <input type="radio" name="choice" id="choice1" >
+                <label for="choice2" class="btntransparent">Science</label>
+                <input type="radio" name="choice" id="choice2">
+                <label for="choice3" class="btntransparent">Business</label>
+                <input type="radio" name="choice" id="choice3">
+                <label for="choice4" class="btntransparent">Art</label>
+                <input type="radio" name="choice" id="choice4">
+                </div>
+                <div id="imgbutton">
+                    <label for="uploadIMG" class="btntransparent">Upload image</label>
+                    <input type="file" name="uploadIMG" id="uploadIMG" >
+                    <button class="btnPlein">Publish</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer id="footer">
+        <article class="socialMedia">
+            <p>Discord</p>
+            <p>Twitter</p>
+            <p>Instagram</p>
+        </article>
+        <p>© 2024 Writer</p>
+    </footer>
 </body>
 </html>
