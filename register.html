@@ -4,26 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/connect.css">
-    <title>Login</title>
+    <title>Register</title>
 </head>
 <body>
     <header id="header" class="container1440">
-        <a href="/"><img src="img/logo.png" alt="logo"></a>
-        <nav>
-            <ul>
-                <a href="/"><li>Home</li></a>
-                <a href="#"><li>My articles</li></a>
-                <a href="#"><li>Dashboard</li></a>
-                <a class="btnPlein" href="#"><li>Logout</li></a>
-                <a href="#"><li><img src="img/Depth 4, Frame 2.png" alt="Profil"></li></a>
-            </ul>
-        </nav>
+        <a href="#"><img src="img/logo.png" alt="logo"></a>
+        <a href="#" class="btnPlein">Sign up</a>
     </header>
+    <main>
+        <section class="container1140">
+            <h1>Sign up</h1>
+            <form action="#" class="container600">
+                <label for="email">Email</label>
+                <input class="btntransparent" type="email" name="email" id="email" placeholder="Enter youre Email">
+                <label for="password">Password</label>
+                <input class="btntransparent" type="password" name="Password" id="password" placeholder="Enter your Password">
+                <button class="btnPlein">Sign up</button>
+                <p>Already have an account?</p>
+                <a href="#" class="btnSignup">Log into your account</a>
+            </form>
+        </section>
+    </main>
     <footer id="footer">
+        <ul>
+            <li><a href="#">Admin</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+        </ul>
         <article class="socialMedia">
-            <p>Discord</p>
-            <p>Twitter</p>
-            <p>Instagram</p>
+            <a href="#"><i class="fa-brands fa-discord"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
         </article>
         <p>© 2024 Writer</p>
     </footer>

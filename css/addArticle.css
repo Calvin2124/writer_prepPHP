@@ -80,6 +80,7 @@ a{
     align-items: center;
     padding: 10px 15px;
     border-bottom: 1px solid grey;
+    margin-bottom: 30px;
 }
 
 header nav ul {
